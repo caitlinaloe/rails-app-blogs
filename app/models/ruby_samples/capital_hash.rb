@@ -1,5 +1,5 @@
-capitals = {
-      "USA" => "Washington, DC",
+def capitals
+    { "USA" => "Washington, DC",
       "Canada" => "Ottawa",
       "United Kingdom" => "London",
       "France" => "Paris",
@@ -17,7 +17,8 @@ capitals = {
       "Philippines" => "Manila",
       "Australia" => "Canberra",
       "Kyrgyzstan" => "Bishkek"
-  }
+    }
+end
 
 def find_capital(country)
   # Use the capitals value to return the city associated with country
