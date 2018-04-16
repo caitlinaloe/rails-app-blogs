@@ -1,26 +1,26 @@
-body {
+.saenz {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     background-image: url("http://supernovathemes.com/wp-content/themes/supernovathemes/images/bg/b45.png")
 }
 
-header{
+.saenz header{
     text-align: center;
     background-color: #307E80;
     padding: 1em;
 }
 
-img{
+.saenz img{
     max-width: 100%;
 }
 
-.container {
+.saenz .container {
     margin: 2em;
     padding: 1em;
 }
 
-.article {
+.saenz .article {
     border-radius: 5px;
     padding: .5em;
     margin-bottom: 1em;
@@ -29,25 +29,25 @@ img{
     box-shadow: 5px 5px #eaeaea;
 }
 
-.readmore {
+.saenz .readmore {
     padding: 5px;
     font-size: 110%;
     background-color: #B22222;
     border-radius: 5px;
 }
 
-.readmore:hover{
+.saenz .readmore:hover{
     background-color: #B93838;
 }
 
 
-a {
+.saenz a {
     text-decoration: none;
     color: #f8f8f8;
 }
 
 
-footer {
+.saenz footer {
     background-color: #307E80;
     padding: 1em;
     margin: 0;
