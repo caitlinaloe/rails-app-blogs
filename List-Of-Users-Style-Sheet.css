@@ -1,0 +1,10 @@
+h1, h2 {
+  background-color: black;
+  color: red;
+}
+
+li {
+  color: red;
+  font-family: 'comic sans'
+  font-weight: bold;
+}
