@@ -5,5 +5,5 @@ def grading(num)
   # 70 - 79 is C
   # 80 - 89 is B
   # 90 - 100 is A
-  # Any other number is 'Not a letter grade'
+  # Any other number is 'Wrong score'
 end
