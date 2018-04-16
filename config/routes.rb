@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
 
 get '/blogs' => 'blogs#index'
-get '/show' => 'users#show'
+get '/users' => 'users#show'
 
 
 end
