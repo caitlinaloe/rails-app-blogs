@@ -74,22 +74,35 @@ class RubySamplesTest < ActiveSupport::TestCase
     puts 'looping(num)'
 
     puts 'num = 1. Answer is [1]'
-    assert_equal [1], looping(1)
+    # assert_equal [1], looping(1)
 
     puts 'num = -5. Answer is []'
-    assert_equal [], looping(-5)
+    # assert_equal [], looping(-5)
 
     puts 'num = 5. Answer is [1, 2, 3, 4, 5]'
-    assert_equal [1, 2, 3, 4, 5], looping(5)
+    # assert_equal [1, 2, 3, 4, 5], looping(5)
   end
 
   test 'percent' do
     puts 'percent(num1, num2)'
 
     puts '5 / 10 = 0.5'
-    assert_equal 0.5, percent(5, 10)
+    # assert_equal 0.5, percent(5, 10)
 
     puts '30 / 3 = 10.0'
-    assert_equal 10.0, percent(30, 3)
+    # assert_equal 10.0, percent(30, 3)
+  end
+
+  test 'string_contains' do
+    puts 'string_contains(my_string, word)'
+
+    puts 'string = "this is a sentence" word = "A"'
+    assert string_contains("this is a sentence", "A")
+
+    puts 'string = "Another sentence. word = another"'
+    assert string_contains("Another sentence", "another")
+
+    puts 'string = "Hello World" word = "no"'
+    assert_not string_contains("Hello World", "no")
   end
 end
