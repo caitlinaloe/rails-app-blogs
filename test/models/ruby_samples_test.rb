@@ -26,4 +26,14 @@ class RubySamplesTest < ActiveSupport::TestCase
     puts 'country = "Nothing". Answer is nil'
     # assert_nil find_capital('Nothing')
   end
+
+  test 'count_lines' do
+    a = "This paragraph \n has two lines"
+    puts a
+    # assert_equal 2, count_lines(a)
+
+    b = "This paragraph \n has \n three lines"
+    puts b
+    # assert_equal 3, count_lines(b)
+  end
 end
