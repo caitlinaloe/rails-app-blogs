@@ -82,4 +82,14 @@ class RubySamplesTest < ActiveSupport::TestCase
     puts 'num = 5. Answer is [1, 2, 3, 4, 5]'
     assert_equal [1, 2, 3, 4, 5], looping(5)
   end
+
+  test 'percent' do
+    puts 'percent(num1, num2)'
+
+    puts '5 / 10 = 0.5'
+    assert_equal 0.5, percent(5, 10)
+
+    puts '30 / 3 = 10.0'
+    assert_equal 10.0, percent(30, 3)
+  end
 end
