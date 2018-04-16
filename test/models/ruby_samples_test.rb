@@ -49,24 +49,37 @@ class RubySamplesTest < ActiveSupport::TestCase
     puts 'grading(num)'
 
     puts '59 = F'
-    assert_equal 'F', grading(59)
+    # assert_equal 'F', grading(59)
 
     puts '61 = D'
-    assert_equal 'D', grading(61)
+    # assert_equal 'D', grading(61)
 
     puts '79 = C'
-    assert_equal 'C', grading(79)
+    # assert_equal 'C', grading(79)
 
     puts '80 = B'
-    assert_equal 'B', grading(80)
+    # assert_equal 'B', grading(80)
 
     puts '95 = A'
-    assert_equal 'A', grading(95)
+    # assert_equal 'A', grading(95)
 
     puts '150 = Wrong Score'
-    assert_equal 'Wrong score', grading(150)
+    # assert_equal 'Wrong score', grading(150)
 
     puts '-5 = Wrong Score'
-    assert_equal 'Wrong score', grading(-5)
+    # assert_equal 'Wrong score', grading(-5)
+  end
+
+  test 'loop' do
+    puts 'looping(num)'
+
+    puts 'num = 1. Answer is [1]'
+    assert_equal [1], looping(1)
+
+    puts 'num = -5. Answer is []'
+    assert_equal [], looping(-5)
+
+    puts 'num = 5. Answer is [1, 2, 3, 4, 5]'
+    assert_equal [1, 2, 3, 4, 5], looping(5)
   end
 end
