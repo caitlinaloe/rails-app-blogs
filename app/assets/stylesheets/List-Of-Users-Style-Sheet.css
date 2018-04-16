@@ -1,9 +1,9 @@
-h1, h2 {
+.jermaine h1, .jermaine h2 {
   background-color: black;
   color: red;
 }
 
-li {
+.jermaine li {
   color: red;
   font-family: 'comic sans'
   font-weight: bold;
