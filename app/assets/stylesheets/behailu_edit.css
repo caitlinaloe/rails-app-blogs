@@ -1,0 +1,71 @@
+.behailu {
+  background-color:lightblue;
+}
+
+.behailu #mainbody { background-color:lightblue;
+
+            margin:150px 200px;
+            width: 600px;
+            height: 600px;
+}
+
+.behailu .edituser { position: absolute;
+            left: 30%;
+            top: 10%
+}
+
+.behailu .edituser h1 { text-align:center;
+               font-size:60px;
+               font-weight: bold;
+               margin-left:100px;
+               color:darkblue;
+}
+
+.behailu .infobox { position: absolute;
+           margin: -50px 0 0 -200px;
+           top: 30%;
+           left: 45%;
+}
+
+.behailu label { color: red;
+        font-size: 25px;
+        font-weight:bold;
+        margin-left: 40px;
+}
+
+.behailu input { margin-left:20px;
+        margin-top:20px;
+        padding:15px;
+        padding-left:30px;
+
+}
+
+.behailu button { font-size: 40px;
+              width: auto;
+              height: auto;
+              margin: 20px 50px;
+}
+
+.behailu #sub { color:green;
+}
+.behailu #canc { color:red;
+}
+
+.behailu #sub:hover { background: green;
+             color:blue;
+}
+
+.behailu #canc:hover{ background:red;
+             color:yellow;
+}
+
+.behailu footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background-color:lightblue;
+        color:black;
+        text-align: center;
+}

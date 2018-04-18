@@ -1,0 +1,39 @@
+.behailu .mainbody { background-color:lightblue
+}
+
+.behailu .tb{
+    position: absolute;
+    margin: -100px 0 0 -200px;
+    top: 30%;
+    left: 45%;
+
+}
+
+.behailu h1{ color:rgb(156, 51, 51);
+    font-size: 60px;
+    text-align:center;
+}
+
+.behailu .table{ color:rgb(6, 48, 24);
+        margin: 20px;
+        border-spacing: 20px;
+
+}
+
+.behailu #tbheader { background-color:lightblue;
+}
+
+.behailu tr:not(.SectionHeader):nth-of-type(even) {
+    background-color:#f0f9ff;
+}
+
+.behailu footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color:lightblue;
+    color:black;
+    text-align: center;
+ }

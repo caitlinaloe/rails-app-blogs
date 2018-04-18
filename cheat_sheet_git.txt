@@ -3,13 +3,14 @@ git add .
 but not to github. You'll need additional commands to
 send to github
 
-...add unsaved files to git. This adds to your local git but not to github. You'll need additional commands to send to github.
-
+...add unsaved files to git. This adds to your local git but not to github.
+You'll need additional commands to send to github.
 
 git branch
-
+view all branches
 git branch -D
-
+Delete branches, specify file_name after the Syntax
+ master
 git checkout <branch>
 Checking out a current branch (AKA a copy) to be able to edit outside of the master.
 
@@ -17,11 +18,15 @@ git checkout -b <branch>
 Adding a new branch (AKA a copy) to checkout and to be able to edit outside of the master.
 
 git clone url
-This command is usually followed by the URL of the remote repo on GitHub you would like to "clone", or make a local copy of, on your computer. On any repo you will see a "Clone or download" button. Clicking that button wil provide you with the url required to clone that repo.
+This command is usually followed by the URL of the remote repo on
+GitHub you would like to "clone", or make a local copy of, on your computer.
+On any repo you will see a "Clone or download" button. Clicking that button wil
+provide you with the url required to clone that repo.
 
 git commit -m"FILE DESCRIPTION"
-
 This command takes your staged files an commits them to version control and creates a point in your version control history that can be referenced later. You will almost always find the -m"COMMIT MESSAGE" flag to provide a message related to your commit
+
+git fetch
 
 git fetch : You can do a git fetch at any time to update your remote-tracking branches under refs/remotes/<remote>/ .
 
@@ -41,7 +46,12 @@ git remote add origin (url)
 git stash
   Resets to get rid of code changes you don't want to save.
 
+  A temporary save. When you're halfway done you don't want to commit it so you stash it away and it is saved it to yourself for later.
+
+  git status
+
 git status
+Tells us what the current state of where our project is.
 
 
 

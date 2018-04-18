@@ -1,10 +1,6 @@
 Answer the following questions:
 
-<<<<<<< HEAD
-1. There's a github project I want to install on my local computer.  How do I get the files from github?
-=======
 * There's a github project I want to install on my local computer.  How do I get the files from github?
-<<<<<<< HEAD
 git remote add origin <url to GitHub repository>
 
 * I want to create a new branch called myNew.  How would I do that?
@@ -22,8 +18,7 @@ git push origin <branch name>
 
 * I'm done with my branch.  I now want to combine my branch and the main (master) branch.  How do I do that?
 git merge myNew
-=======
->>>>>>> 06c097bf0cd3048c61d90840d883362e639da324
+
 - git remote add origin + link from the folder set up in github (just copy and paste: git remote add origin URL)
 
 2.  I want to create a new branch called myNew.  How would I do that?
@@ -45,4 +40,3 @@ git push origin myNew
 6.  I'm done with my branch.  I now want to combine my branch and the main (master) branch.  How do I do that?
 git pull
 git pull origin master
->>>>>>> 93c4abc9ec8292aa7236c74aa5bd11d59641a2f7
