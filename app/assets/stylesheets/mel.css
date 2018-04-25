@@ -1,0 +1,47 @@
+.mel h1{
+  text-align: center;
+  font-size: 30px;
+  background-color: gray;
+  color: white;
+  width: 100%;
+  height: auto;
+}
+
+.mel h2{
+  text-align: left;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: auto;
+}
+
+.mel .myClass {
+    background-color: gray;
+    border: 2px solid black;
+    margin: 20px 100px 20px 100px;
+    padding: 15px;
+}
+
+.mel .button {
+  background-color: black;
+  color: white;
+  width: 100px;
+  font-size: 36px;
+  text-align: center;
+  text-decorations: none;
+}
+
+.mel .button:hover {
+  background-color:white;
+  color: black;
+  text-decoration: underline;
+}
+
+.mel #myId {
+  background-color: gray;
+}
+
+.mel * {
+   font-family: arial;
+}
