@@ -1,16 +1,12 @@
-<<<<<<< HEAD
-class  UsersController < ApplicationController
-
-  def show
-  end
-
-=======
 class UsersController < ApplicationController
 
   def edit
   end
 
   def index
+    user_1 = User.new('Bob')
+    user_2 = User.new('Sally')
+    @users = [user_1, user_2]
   end
 
   def new
@@ -18,5 +14,5 @@ class UsersController < ApplicationController
 
   def show
   end
->>>>>>> fad222b49a6ba6461a79ef4ca5b3da26c5e3d644
+
 end
