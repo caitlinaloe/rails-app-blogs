@@ -1,4 +1,6 @@
 class User
+  attr_accessor :name
+
   def initialize(name)
     @name = name
     local_var = 1

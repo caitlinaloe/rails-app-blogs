@@ -1,0 +1,27 @@
+<div>
+   <h1><%= @users[0].name %></h1>
+</div>
+
+  <div class='behailu'>
+    <div class="mainbody">
+      <h1>HTML from behailu</h1>
+
+      <h1> USERS</h1>
+      <div class="tb">
+       <table class="table">
+         <tr id="tbheader">
+           <th>Greet Users</th>
+         </tr>
+         <% @users.each do |user| %>
+          <tr>
+            <td><%= user.greet %></td>
+          </tr>
+         <% end %>
+       </table>
+      </div>
+    </div>
+
+    <footer>
+      @ 2018 List of All Users. All rights reserved.
+    </footer>
+  </div>
