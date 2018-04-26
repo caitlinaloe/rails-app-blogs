@@ -1,17 +1,3 @@
-<!--
-  Display a user profile page.
-  Don't worry about using actual user information.
-  You can use fake user information (like "Bob Smith's profile")
-  The important thing is that the page includes html headers and paragraphs
--->
-<!doctype html>
-<html>
-<head>
-  <title>Profile Page</title>
-</head>
-
-<body>
-
   <div class='behailu'>
     <h1>HTML from behailu</h1>
     <div class="userifo">
@@ -20,7 +6,7 @@
       </div>
       <div class="username">
         <h2>USER NAME :</h2>
-        <h3>Behailu Kassa</h3>
+        <h3><%= @user.name %></h3>
       </div>
       <div class="contact">
        <h2>CONTACT :</h2>
@@ -57,5 +43,3 @@
       <p> You should <a href="http://www.google.com" target="_blank" class="button">google</a> something. </p>
     </div>
   </div>
-</body>
-</html>
