@@ -15,6 +15,7 @@
          <% @users.each do |user| %>
           <tr>
             <td><%= user.greet %></td>
+            <td><%= link_to 'Visit User', user_path(user.name) %>
           </tr>
          <% end %>
        </table>

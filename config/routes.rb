@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   resources :blogs
   resources :users
+
+  get 'ana_show', to: 'users#show_saenz'
 end

@@ -17,4 +17,8 @@ class UsersController < ApplicationController
   def show
     @user = User.new(params[:id])
   end
+
+  def show_saenz
+    @user = User.new("Ana")
+  end
 end
