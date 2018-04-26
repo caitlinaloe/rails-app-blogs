@@ -1,6 +1,9 @@
 class UsersController < ApplicationController
 
+  attr_accessor :users
+
   def edit
+    @user = User.new(params[:id])
   end
 
   def index
@@ -13,6 +16,7 @@ class UsersController < ApplicationController
   end
 
   def show
+    @user = User.new(params[:id])
   end
 
 end
