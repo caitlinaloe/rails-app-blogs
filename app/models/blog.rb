@@ -1,13 +1,14 @@
 class Blog
-  attr_accessor :blogname
+  attr_accessor :blogname, :grading
 
   def initialize(blogname)
-    @blogname = blogname
+    @blogname = blogname 
   end
 
 
 
   def grading(num)
+    @grading = grading
     # return the correct letter grade base on num (num is a number)
     # 0 - 59 is F
     # 60 - 69 is D
