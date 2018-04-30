@@ -1,23 +1,47 @@
-<div>
-   <h1><%= @users[0].name %></h1>
-</div>
-
   <div class='behailu'>
     <div class="mainbody">
+      <h1><%= @users[0].name %></h1>
       <h1>HTML from behailu</h1>
 
       <h1> USERS</h1>
       <div class="tb">
        <table class="table">
          <tr id="tbheader">
-           <th>Greet Users</th>
+           <th>Number of Users</th>
+           <th>First Name</th>
+           <th>Last Name</th>
+           <th>Email Addres</th>
          </tr>
-         <% @users.each do |user| %>
-          <tr>
-            <td><%= user.greet %></td>
-            <td><%= link_to 'Visit User', user_path(user.name) %>
-          </tr>
-         <% end %>
+         <tr>
+            <th>1</th>
+            <th>Behailu</th>
+            <th>Kassa</th>
+            <th>kasBh@outlook.com</th>
+         </tr>
+         <tr>
+            <th>2</th>
+            <th>Bob</th>
+            <th>Thomas</th>
+            <th>Bob2018@outlook.com</th>
+         </tr>
+         <tr>
+            <th>3</th>
+            <th>Tom</th>
+            <th>Kiven</th>
+            <th>kivenT@gmail.com</th>
+         </tr>
+         <tr>
+            <th>4</th>
+            <th>Tiffany</th>
+            <th>Thomas</th>
+            <th>TiffLove@yahoo.com</th>
+         </tr>
+         <tr>
+            <th>5</th>
+            <th>Gorge</th>
+            <th>Micheal</th>
+            <th>gm2010@aol.com</th>
+         </tr>
        </table>
       </div>
     </div>

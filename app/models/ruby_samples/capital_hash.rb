@@ -22,7 +22,5 @@ end
 
 def find_capital(country)
   # Use the capitals value to return the city associated with country
-
-  # from caitlin
   capitals[country]
 end

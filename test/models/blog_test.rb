@@ -2,7 +2,7 @@ require 'test_helper'
 
 class BlogTest < ActiveSupport::TestCase
   test 'Blog.new works' do
-    assert_equal Blog.new.class == Blog
+    assert_equal Blog.new.class.to_s, "Blog"
   end
 
   test 'Blog grading' do

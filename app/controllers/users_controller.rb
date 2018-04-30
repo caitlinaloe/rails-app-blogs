@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
 
+  attr_accessor :users
+
   def edit
     @var_1 = User.new(params[:id])
   end
@@ -21,4 +23,5 @@ class UsersController < ApplicationController
   def show_saenz
     @user = User.new("Ana")
   end
+
 end
