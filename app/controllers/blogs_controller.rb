@@ -1,5 +1,7 @@
 class BlogsController < ApplicationController
 
+  attr_accessor :grading
+
   def edit
   end
 
@@ -10,5 +12,6 @@ class BlogsController < ApplicationController
   end
 
   def show
+    @grading = Blog.new().grading(params[:id])
   end
 end
