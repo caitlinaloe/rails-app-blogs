@@ -1,19 +1,17 @@
 class UsersController < ApplicationController
   def edit
-    @user = User.new(params[:id])
+    @user = User.find(params[:id])
   end
 
   def index
-    user_1 = User.new('bob')
-    user_2 = User.new('sally')
-    user_3 = User.new('John')
-    @users = [user_1, user_2, user_3]
+    @users = User.all
   end
 
   def new
+    @user = User.new
   end
 
   def show
-    @user = User.new(params[:id])
+    @user = User.find(params[:id])
   end
 end
