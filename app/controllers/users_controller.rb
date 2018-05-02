@@ -4,7 +4,8 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = user.new(email: params[:user][:email], name: params[:user][:name], phone: params[:user][:phone])
+    @user = User.new(email: params[:user][:email],
+    name: params[:user][:name], phone: params[:user][:phone])
     if @user.save
       redirect_to user_path(@user)
     else
@@ -24,6 +25,7 @@ class UsersController < ApplicationController
   end
 
   def new
+    @user = User.new
   end
 
   def show

@@ -2,26 +2,27 @@
   <div class="mainbody">
     <h1>HTML from behailu</h1>
 
-    <h1> USERS</h1>
-    <div class="tb">
-     <table class="table">
-       <tr id="tbheader">
-         <th>User Name</th>
-         <th>User Email</th>
-         <th>User Phone</th>
-       </tr>
+      <h1> USERS</h1>
+      <div class="tb">
+       <table class="table">
+         <tr id="tbheader">
+           <th>User Name</th>
+           <th>User Email</th>
+           <th>User Phone</th>
+         </tr>
 
-       <% @users.each do |user| %>
-       <tr>
-         <td><%= user.name %></td>
-         <td><%= user.email %></td>
-         <td><%= user.phone %></td>
-         <td><%= link_to 'View User', user_path(user) %></td>
-         <td><%= link_to 'Edit User', edit_user_path(user) %></td>
-       </tr>
-      <% end %>
+         <% @users.each do |user| %>
+         <tr>
+           <td><%= user.name %></td>
+           <td><%= user.email %></td>
+           <td><%= user.phone %></td>
+           <td><%= link_to 'View User', user_path(user) %></td>
+           <td><%= link_to 'Edit User', edit_user_path(user) %></td>
+         </tr>
+        <% end %>
 
-     </table>
+       </table>
+      </div>
     </div>
   </div>
 
