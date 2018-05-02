@@ -5,6 +5,11 @@ class User < ApplicationRecord
 
 
   def greet
-    return "Hello, my name is #{name}."
+    puts greet_again
+    return "Hello, my name is #{names}."
+  end
+
+  private def greet_again
+    'hello'
   end
 end

@@ -1,35 +1,20 @@
 
   <div class='behailu'>
     <div id="mainbody">
-     <div class="edituser">
-       <h1>HTML from behailu</h1>
-        <h1>Edit <%= @user.name %></h1>
-     </div>
-     <div class="infobox">
-       <div class="fm">
-          <label for="Change First Name">First Name :</label>
-          <input type="text" placeholder="Enter First Name Here" name="newfirstname" required>
-       </div>
-       <div class="lm">
-          <label for="Change Last Name">Last Name :</label>
-          <input type="text" placeholder="Enter Last Name Here" name="newlastname" required>
-       </div>
-       <div class="oldpas">
-          <label for="Old Password">Old Password :</label>
-          <input type="text" placeholder="Old Password" name="oldpasword" required>
-       </div>
-       <div class="newpass">
-          <label for="New Password">New Password :</label>
-          <input type="text" placeholder="New Password" name="nepasword" required>
-       </div>
-       <div class="renewpass">
-          <label for="Re-Enter New Password">Re-Enter New Password :</label>
-          <input type="text" placeholder="Re-Enter New Password" name="newpasword" required>
-      </div>
-      <div class="button">
-            <button id="sub">Submit</button>
-            <button id="canc">Cancel</button>
-      </div>
+      <% if @user.errors.any? %>
+        <h1>Please correct the following issues: </h1>
+        <ul>
+          <% @user.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+          <% end %>
+        </ul>
+      <% end %>
+      <%= form_for @user do |form| %>
+        Name: <%= form.text_field :name %><br />
+        Email : <%= form.text_field :email %><br />
+        Phone : <%= form.text_field :phone %><br />
+        <%= form.submit %>
+      <% end %>
     </div>
   </div>
 
