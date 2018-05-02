@@ -1,19 +1,32 @@
 class UsersController < ApplicationController
+
+  def update
+  end
+
+  def create
+    @user = user.new(email: params[:user][:email], name: params[:user][:name], phone: params[:user][:phone])
+    if @user.save
+      redirect_to user_path(@user)
+    else
+      render 'new'
+    end
+  end
+
+  def destroy
+  end
+
   def edit
-    @user = User.new(params[:id])
+    @user = User.find(params[:id])
   end
 
   def index
-    user_1 = User.new('bob')
-    user_2 = User.new('sally')
-    user_3 = User.new('John')
-    @users = [user_1, user_2, user_3]
+    @users = User.all
   end
 
   def new
   end
 
   def show
-    @user = User.new(params[:id])
+    @user = User.find(params[:id])
   end
 end
