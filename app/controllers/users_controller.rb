@@ -36,6 +36,8 @@ class UsersController < ApplicationController
   end
 
   def show
+    @comments = @user.comments
+    # @comments = Comment.where(user_id: @user.id)
   end
 
   private def user_params
