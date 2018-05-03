@@ -12,6 +12,7 @@
        <h2>CONTACT :</h2>
        <P>User prefer to be contact through email</P>
        <h3><%= @user.email %> <button id="ebutton">Send Email</button> </h3>
+       <h3><%= link_to 'Delete User', @user, method: :delete %></h3>
       </div>
     </div>
     <footer>
