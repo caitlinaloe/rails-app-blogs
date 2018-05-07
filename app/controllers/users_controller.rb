@@ -36,6 +36,7 @@ class UsersController < ApplicationController
   end
 
   def show
+    @comments = @user.comments
   end
 
   private def user_params

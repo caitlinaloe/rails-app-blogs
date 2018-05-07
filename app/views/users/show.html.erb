@@ -15,6 +15,12 @@
        <h3><%= link_to 'Delete User', @user, method: :delete %></h3>
       </div>
     </div>
+    <% @comments.each do |comment|%>
+      <p><%= "Comment: #{comment.content}" %></p>
+    <% end %>
+
+
+
     <footer>
         @ 2018 Users Contact. All rights reserved.
     </footer>
