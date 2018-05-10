@@ -8,7 +8,7 @@ class User < ApplicationRecord
 
   def greet
     puts greet_again
-    return "Hello, my name is #{names}."
+    return "Hello, my name is #{name}."
   end
 
   private def greet_again
