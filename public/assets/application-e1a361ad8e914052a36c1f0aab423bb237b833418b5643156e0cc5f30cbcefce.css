@@ -1,0 +1,496 @@
+.jermaine h1, .jermaine h2 {
+  background-color: black;
+  color: red;
+}
+
+.jermaine li {
+  color: red;
+  font-family: 'comic sans'
+  font-weight: bold;
+}
+.behailu {
+  background-color:lightblue;
+}
+
+.behailu #mainbody { background-color:lightblue;
+
+            margin:150px 200px;
+            width: 600px;
+            height: 600px;
+}
+
+.behailu .edituser { position: absolute;
+            left: 30%;
+            top: 10%
+}
+
+.behailu .edituser h1 { text-align:center;
+               font-size:60px;
+               font-weight: bold;
+               margin-left:100px;
+               color:darkblue;
+}
+
+.behailu .infobox { position: absolute;
+           margin: -50px 0 0 -200px;
+           top: 30%;
+           left: 45%;
+}
+
+.behailu label { color: red;
+        font-size: 25px;
+        font-weight:bold;
+        margin-left: 40px;
+}
+
+.behailu input { margin-left:20px;
+        margin-top:20px;
+        padding:15px;
+        padding-left:30px;
+
+}
+
+.behailu button { font-size: 40px;
+              width: auto;
+              height: auto;
+              margin: 20px 50px;
+}
+
+.behailu #sub { color:green;
+}
+.behailu #canc { color:red;
+}
+
+.behailu #sub:hover { background: green;
+             color:blue;
+}
+
+.behailu #canc:hover{ background:red;
+             color:yellow;
+}
+
+.behailu footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background-color:lightblue;
+        color:black;
+        text-align: center;
+}
+.behailu .mainbody { background-color:lightblue
+}
+
+.behailu .tb{
+    position: absolute;
+    margin: -100px 0 0 -200px;
+    top: 30%;
+    left: 45%;
+
+}
+
+.behailu h1{ color:rgb(156, 51, 51);
+    font-size: 60px;
+    text-align:center;
+}
+
+.behailu .table{ color:rgb(6, 48, 24);
+        margin: 20px;
+        border-spacing: 20px;
+
+}
+
+.behailu #tbheader { background-color:lightblue;
+}
+
+.behailu tr:not(.SectionHeader):nth-of-type(even) {
+    background-color:#f0f9ff;
+}
+
+.behailu footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color:lightblue;
+    color:black;
+    text-align: center;
+ }
+.behailu .mainbody{ background-color:lightblue;
+}
+
+.behailu #singuph1 h1 { text-align:center;
+               font-size:60px;
+               font-weight: bold;
+               margin-left:100px;
+               color: darkblue;
+}
+
+.behailu .formbox p{ color: white;
+           text-decoration:underline;
+           font-weight: bold;
+           font-size:20px;
+}
+
+.behailu label { color: red;
+        font-size: 25px;
+        font-weight:bold;
+        margin-left: 40px;
+}
+
+.behailu input { margin-left:20px;
+        margin-top:20px;
+        padding:15px;
+        padding-left:30px;
+
+}
+
+.behailu button { font-size: 40px;
+              width: auto;
+              height: auto;
+              margin: 20px 50px;
+}
+
+.behailu #chebox { color:blue;
+          font-size: 15px;
+}
+
+.behailu .formbox { position: absolute;
+           margin: -50px 0 0 -200px;
+           top: 20%;
+           left: 45%;
+}
+
+.behailu #canc { color:red;
+}
+
+.behailu #sub { color:green;
+}
+
+.behailu #sub:hover { background: green;
+             color:blue;
+}
+
+.behailu #canc:hover{ background:red;
+             color:yellow;
+}
+
+.behailu footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color:lightblue;
+    color:black;
+    text-align: center;
+}
+.behailu { background-color: lightblue;
+}
+
+.behailu .username{ height: auto;
+           width: auto;
+}
+
+.behailu .username h2 {color:black;
+              font-size:20px;
+}
+
+.behailu .username h3 { color: #000080;
+               font-size: 30px;
+}
+
+.behailu .userifo { margin: 200px;
+}
+
+.behailu .contact h2 { color: black;
+            font-size: 20px;
+}
+
+.behailu .contact p { color: lightcoral;
+ }
+
+.behailu .contact h3 { color:darkblue;
+               font-weight: bold;
+               font-size:25px;
+}
+.behailu button { font-size: 30px;
+        width: auto;
+        height: auto;
+        margin: 20px 50px;
+}
+
+.behailu #ebutton:hover{ background-color: green;
+              color:yellow;
+}
+
+.behailu footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color:lightblue;
+    color:black;
+    text-align: center;
+ }
+.caitlin * {
+  background-color: #b0e0e6;
+  color: #2c0438;
+  font-family: sans-serif;
+}
+
+
+.caitlin h1 , .caitlin h3 {
+  background-color: #495a80;
+  color: white;
+}
+
+
+
+.caitlin p {
+  color: #495a80;
+  margin: 20px;
+}
+
+
+.caitlin .button {
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.caitlin .button:hover {
+  background-color: white;
+  color: black;
+}
+/*Strip the ul of padding and list styling*/
+
+.candice ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+}
+/*Create a horizontal list with spacing*/
+.candice li {
+    display:inline-block;
+    float: left;
+    margin-right: 1px;
+}
+
+
+/*Style for menu links*/
+.candice li a {
+    display:block;
+    min-width:140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    background: #2f3036;
+    text-decoration: none;
+}
+/*Hover state for top level links*/
+.candice li:hover a {
+    background: #19c589;
+}
+/*Style for dropdown links*/
+.candice li:hover ul a {
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
+}
+/*Hover state for dropdown links*/
+.candice li:hover ul a:hover {
+    background: #19c589;
+    color: #fff;
+}
+/*Hide dropdown links until they are needed*/
+.candice li ul {
+    display: none;
+}
+/*Make dropdown links vertical*/
+.candice li ul li {
+    display: block;
+    float: none;
+}
+/*Prevent text wrapping*/
+.candice li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+}
+/*Display the dropdown on hover*/
+.candice ul li a:hover + .hidden, .hidden:hover {
+    display: block;
+}
+body {
+  background-color: antiquewhite;
+  text-align: justify;
+  font-family: 'work sans', sans-serif;
+  font-size: 1em
+  margin-bottom: 5px;
+  width: 80%;
+  margin-left: 5%;
+}
+
+/* Class Styles */
+
+.space {
+  padding-top: 8%;
+}
+
+/* ID styles */
+
+#coverpage {
+  height: 400px;
+  background-image: url(https://charlotteagenda-charlotteagenda.netdna-ssl.com/wp-content/uploads/2016/07/charlotte-skyline.jpg);
+  background: linear-gradient(to right red, pink);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: white;
+}
+
+#coverpagetitle {
+  font-size: 1em;
+}
+.mel h1{
+  text-align: center;
+  font-size: 30px;
+  background-color: gray;
+  color: white;
+  width: 100%;
+  height: auto;
+}
+
+.mel h2{
+  text-align: left;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: auto;
+}
+
+.mel .myClass {
+    background-color: gray;
+    border: 2px solid black;
+    margin: 20px 100px 20px 100px;
+    padding: 15px;
+}
+
+.mel .button {
+  background-color: black;
+  color: white;
+  width: 100px;
+  font-size: 36px;
+  text-align: center;
+  text-decorations: none;
+}
+
+.mel .button:hover {
+  background-color:white;
+  color: black;
+  text-decoration: underline;
+}
+
+.mel #myId {
+  background-color: gray;
+}
+
+.mel * {
+   font-family: arial;
+}
+.shalee h1 {
+  color: forestgreen;
+  font-size: 45px;
+
+}
+
+
+.shalee p {
+  color: brown;
+  font-size: 15px;
+}
+.saenz {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("http://supernovathemes.com/wp-content/themes/supernovathemes/images/bg/b45.png")
+}
+
+.saenz header{
+    text-align: center;
+    background-color: #307E80;
+    padding: 1em;
+}
+
+.saenz img{
+    max-width: 100%;
+}
+
+.saenz .container {
+    margin: 2em;
+    padding: 1em;
+}
+
+.saenz .article {
+    border-radius: 5px;
+    padding: .5em;
+    margin-bottom: 1em;
+    background-color: #F4F4F4;
+    color: #307E80;
+    box-shadow: 5px 5px #eaeaea;
+}
+
+.saenz .readmore {
+    padding: 5px;
+    font-size: 110%;
+    background-color: #B22222;
+    border-radius: 5px;
+}
+
+.saenz .readmore:hover{
+    background-color: #B93838;
+}
+
+
+.saenz a {
+    text-decoration: none;
+    color: #f8f8f8;
+}
+
+
+.saenz footer {
+    background-color: #307E80;
+    padding: 1em;
+    margin: 0;
+    font-size: 120%;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+

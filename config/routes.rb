@@ -4,15 +4,8 @@ Rails.application.routes.draw do
 
 get '/blogs' => 'blogs#index'
 get '/users' => 'users#show'
+resources :blogs
 
 
 
 end
-
-
-
-
-Rails.application.routes.draw do
-  root to: 'blogs#index'
-
-  resources :blogs
