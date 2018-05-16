@@ -1,17 +1,15 @@
 
     <div class='behailu'>
       <div class='mainbody'>
-        <h1>HTML from behailu</h1>
-        <div id="singuph1">
-          <h1>Sign Up</h1>
-        </div>
       </div class="fillP">
         <div class="formbox">
           <% if @user.errors.any? %>
             <h1>Please correct the following issues: </h1>
-            <%= @user.errors.messages do |key, value | %>
-              <p>"#{key}: #{value}"</p>
-            <% end %>
+            <ul>
+              <% @user.errors.full_messages.each do |message| %>
+                <li><%= message %></li>
+              <% end %>
+            </ul>
           <% end %>
           <%= form_for @user do |form| %>
             Name: <%= form.text_field :name %><br />

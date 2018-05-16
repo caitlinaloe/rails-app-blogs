@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20180506183820) do
 
   create_table "blogs", force: :cascade do |t|
@@ -18,6 +19,9 @@ ActiveRecord::Schema.define(version: 20180506183820) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+=======
+ActiveRecord::Schema.define(version: 20180502235953) do
+>>>>>>> 7352f822c078193c20796e6097e1df33de8b51f5
 
   create_table "comments", force: :cascade do |t|
     t.integer "user_id"
