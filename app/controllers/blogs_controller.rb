@@ -37,8 +37,15 @@ class BlogsController < ApplicationController
   end
 
   def show
-    #@grading = Blog.new().grading(params[:id])
     @content = @blog.content
+  end
+
+  private def blog_params
+    params.require(:blog).permit(:title, :content)
+  end
+
+  private def set_blog
+    @blog = Blog.find(params[:id])
   end
 
   private def blog_params
